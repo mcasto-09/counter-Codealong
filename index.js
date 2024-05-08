@@ -50,3 +50,8 @@ themeButtons.forEach((buttonNode) => {
         setTheme(e.target.innerText.toLowerCase())
     });
 });
+
+document.querySelector('but-container').addEventListener('click', (e) => {
+    console.log(e.target)
+    console.log(this)
+})
