@@ -52,6 +52,7 @@ themeButtons.forEach((buttonNode) => {
 });
 
 document.querySelector('but-container').addEventListener('click', (e) => {
-    console.log(e.target)
-    console.log(this)
+    console.log(e.target);
+    // console.log(this);
+    console.log(e.currentTarget);
 })
